@@ -1,0 +1,9 @@
+const firebaseConfig = {
+  apiKey: "AIzaSyB9oPN2xTMe46mZa6RMn9772w5uqeNv_2o",
+  authDomain: "series-studio-ba2fa.firebaseapp.com",
+  databaseURL: "https://series-studio-ba2fa-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "series-studio-ba2fa",
+  storageBucket: "series-studio-ba2fa.appspot.com",
+  messagingSenderId: "587535277841",
+  appId: "1:587535277841:web:01832e91d1c08de636f6b0",
+  measurementId: "G-MJZSKRY14H"
