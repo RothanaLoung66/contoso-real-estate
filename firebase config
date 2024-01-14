@@ -1,9 +1,21 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyB9oPN2xTMe46mZa6RMn9772w5uqeNv_2o",
-  authDomain: "series-studio-ba2fa.firebaseapp.com",
-  databaseURL: "https://series-studio-ba2fa-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "series-studio-ba2fa",
-  storageBucket: "series-studio-ba2fa.appspot.com",
-  messagingSenderId: "587535277841",
-  appId: "1:587535277841:web:01832e91d1c08de636f6b0",
-  measurementId: "G-MJZSKRY14H"
+  apiKey: "AIzaSyCmTD6vwDAllEwXCDy6RMcBBO8dRomAfdw",
+  authDomain: "ca-realty-7650b.firebaseapp.com",
+  projectId: "ca-realty-7650b",
+  storageBucket: "ca-realty-7650b.appspot.com",
+  messagingSenderId: "1057687673384",
+  appId: "1:1057687673384:web:03277f19a9c3909fb9331d",
+  measurementId: "G-VKYY2MZLEK"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
